@@ -1,6 +1,6 @@
 import { Menu, X, ShieldCheck, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "@/assets/onetrust-logo.jpeg.asset.json";
+import logo from "../../../public/logo.jpg";
 import { BUSINESS } from "@/lib/site-data";
 
 const LINKS = [
@@ -32,7 +32,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
         <a href="#top" className="flex items-center gap-3">
           <img
-            src={logo.url}
+            src={logo}
             alt="OneTrust Medical Billing Service logo"
             className="h-11 w-11 rounded-lg object-cover"
           />

@@ -1,6 +1,7 @@
 import { FileCheck2, CalendarCheck, Lock, Percent, Award, Phone } from "lucide-react";
-import logo from "@/assets/onetrust-logo.jpeg.asset.json";
+// import logo from "@/assets/onetrust-logo.jpeg.asset.json";
 import { BUSINESS } from "@/lib/site-data";
+import logo from "../../../public/logo.jpg"
 
 const ORBIT = [
   { label: "Credential", style: "top-[2%] left-1/2" },
@@ -77,7 +78,7 @@ export function Hero() {
           <div className="absolute inset-6 rounded-full border-2 border-dashed border-emerald/30" />
           <div className="absolute inset-16 rounded-full bg-gradient-brand opacity-10 blur-2xl" />
           <div className="absolute left-1/2 top-1/2 flex h-40 w-40 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 rounded-full bg-card shadow-card">
-            <img src={logo.url} alt="OneTrust icon" className="h-14 w-14 rounded-full object-cover" />
+            <img src={logo} alt="OneTrust icon" className="h-14 w-14 rounded-full object-cover" />
             <span className="text-xs font-semibold uppercase tracking-wider text-navy">
               Revenue Cycle
             </span>
