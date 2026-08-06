@@ -1,6 +1,6 @@
 import { Menu, X, ShieldCheck, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "../../../public/logo.jpg";
+import logo from "/logo.jpg";
 import { BUSINESS } from "@/lib/site-data";
 
 const LINKS = [

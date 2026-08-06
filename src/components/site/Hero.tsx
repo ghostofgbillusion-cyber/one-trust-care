@@ -1,7 +1,7 @@
 import { FileCheck2, CalendarCheck, Lock, Percent, Award, Phone } from "lucide-react";
 // import logo from "@/assets/onetrust-logo.jpeg.asset.json";
 import { BUSINESS } from "@/lib/site-data";
-import logo from "../../../public/logo.jpg"
+import logo from "/logo.jpg"
 
 const ORBIT = [
   { label: "Credential", style: "top-[2%] left-1/2" },

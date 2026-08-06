@@ -1,5 +1,5 @@
 import { Mail, Phone, Globe } from "lucide-react";
-import logo from "@/assets/onetrust-logo.jpeg.asset.json";
+import logo from "/logo.jpg";
 import { BUSINESS, SERVICES } from "@/lib/site-data";
 
 export function Footer() {
@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-1">
             <div className="flex items-center gap-3">
-              <img src={logo.url} alt="OneTrust logo" className="h-11 w-11 rounded-lg object-cover" />
+              <img src={logo} alt="OneTrust logo" className="h-11 w-11 rounded-lg object-cover" />
               <span className="font-display text-xl font-semibold text-primary-foreground">
                 OneTrust
               </span>
