@@ -1,20 +1,25 @@
-# Trusty Medical Partners
+# OneTrust Medical Billing Service
 
-Thanks you so much for your kind words. we provide all RCM services, including:
+Marketing site for OneTrust Medical Billing Service — revenue cycle management for independent healthcare practices.
 
-•	Credentialing / LLC Registration
+**One Trust. Accurate Billing. Better Results.**
 
-•	Medical Billing & Coding
+## Services
 
-•	State Licensing Support
+- Credentialing / LLC registration
+- Medical billing & coding
+- State licensing support
+- Virtual assistance
+- Virtual scribing
+- AR follow-up & denial management
+- Website design, digital media, and telemarketing
 
-•	Virtual Assistance
+## Site pages
 
-•	Virtual Scribing
+- `/` — home (services, process, client remarks, FAQ, contact)
+- `/terms` — Terms and Conditions
 
-•	AR Follow-Up & Denial Management
-
-•	Website Design, Digital Media, and   TeleMarketing   our businuss email: service@onetrustmedicalbillingservice.com    " please make sure the website works properly  and each sections also works properly add section were our assingned clients can left remarks,, add 5  to 6 remarks with 5/5 starts also here is the business  +1 2092940014
+Contact: [service@onetrustmedicalbillingservice.com](mailto:service@onetrustmedicalbillingservice.com) · +1 (209) 294-0014
 
 This project was built with [Lovable](https://lovable.dev).
 

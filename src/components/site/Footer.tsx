@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { Mail, Phone, Globe } from "lucide-react";
 import logo from "/logo.jpg";
 import { BUSINESS, SERVICES } from "@/lib/site-data";
@@ -23,12 +24,12 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-primary-foreground">Company</h3>
             <ul className="mt-4 space-y-2 text-sm text-primary-foreground/75">
               {[
-                { href: "#services", label: "Services" },
-                { href: "#process", label: "Process" },
-                { href: "#why", label: "Why Us" },
-                { href: "#remarks", label: "Client Remarks" },
-                { href: "#faq", label: "FAQ" },
-                { href: "#contact", label: "Contact" },
+                { href: "/#services", label: "Services" },
+                { href: "/#process", label: "Process" },
+                { href: "/#why", label: "Why Us" },
+                { href: "/#remarks", label: "Client Remarks" },
+                { href: "/#faq", label: "FAQ" },
+                { href: "/#contact", label: "Contact" },
               ].map((l) => (
                 <li key={l.href}>
                   <a href={l.href} className="transition-colors hover:text-emerald-light">
@@ -63,6 +64,14 @@ export function Footer() {
               </li>
               <li className="inline-flex items-center gap-2">
                 <Globe className="h-4 w-4" /> {BUSINESS.site}
+              </li>
+            </ul>
+            <h3 className="mt-8 text-sm font-semibold text-primary-foreground">Legal</h3>
+            <ul className="mt-4 space-y-2 text-sm text-primary-foreground/75">
+              <li>
+                <Link to="/terms" className="transition-colors hover:text-emerald-light">
+                  Terms and Conditions
+                </Link>
               </li>
             </ul>
           </div>

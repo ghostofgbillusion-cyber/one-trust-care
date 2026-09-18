@@ -4,12 +4,12 @@ import logo from "/logo.jpg";
 import { BUSINESS } from "@/lib/site-data";
 
 const LINKS = [
-  { href: "#services", label: "Services" },
-  { href: "#process", label: "Process" },
-  { href: "#why", label: "Why Us" },
-  { href: "#remarks", label: "Client Remarks" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#services", label: "Services" },
+  { href: "/#process", label: "Process" },
+  { href: "/#why", label: "Why Us" },
+  { href: "/#remarks", label: "Client Remarks" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -30,7 +30,7 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
-        <a href="#top" className="flex items-center gap-3">
+        <a href="/#top" className="flex items-center gap-3">
           <img
             src={logo}
             alt="OneTrust Medical Billing Service logo"
@@ -57,7 +57,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/#contact"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-emerald px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
           >
             <ShieldCheck className="h-4 w-4" /> Free Audit
